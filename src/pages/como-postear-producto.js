@@ -1,13 +1,13 @@
 import { Layout } from '@/components/layout/Layout'
 import React from 'react'
 
-const Crearcuenta = () => {
+const ComoPostearProducto = () => {
     return (
         <>
             <Layout />
-            <h1 className='r'>Crear Cuenta</h1>
+            <h1>Como Postear Producto</h1>
         </>
     )
 }
 
-export default Crearcuenta
+export default ComoPostearProducto

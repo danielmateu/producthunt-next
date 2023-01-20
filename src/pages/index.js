@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Layout />
-      <h1 className='text-center'>Inicio</h1>
+      <h1 className=''>Inicio</h1>
     </>
 
   )

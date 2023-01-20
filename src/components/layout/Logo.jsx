@@ -12,7 +12,7 @@ export const Logo = () => {
             </svg>
 
 
-            <Link href="/" className='bg-orange-500 hover:bg-orange-600 p-6 rounded-full w-8 h-8 flex items-center justify-center text-3xl font-bold text-white transition-all hover:rotate-45'>
+            <Link href="/" className='bg-orange-500 hover:bg-orange-600 p-5 rounded-full w-6 h-6 flex items-center justify-center text-3xl font-bold text-white transition-all hover:rotate-180'>
                 P
             </Link>
             <Buscar />
