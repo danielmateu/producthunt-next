@@ -10,7 +10,7 @@ export const Header = () => {
 
     const [usuario, setUsuario] = useState(false)
     return (
-        <header className="border py-4 px-5 hover:bg-slate-50 transition-all">
+        <header className="border-b py-4 px-5  transition-all text-black dark:text-white">
             <div className='flex flex-col sm:flex-row items-center gap-6 justify-between'>
                 <Logo />
                 <Nav />

@@ -5,6 +5,7 @@ export default function Document() {
     <Html lang="es">
       <Head>
         <html lang="es" />
+        <html className="dark"/>
       </Head>
       <body>
         <Main />
