@@ -1,9 +1,16 @@
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { ChangeMode } from '../ui/ChangeMode'
 
 export const MenuAdmin = ({ usuario }) => {
+
+    
+
     return (
         <div className="flex gap-4 items-center">
+            
+            <ChangeMode/>
+
             {usuario ? (
                 <>
                     <p>Hola: Dani</p>

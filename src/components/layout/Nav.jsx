@@ -7,8 +7,6 @@ export const Nav = () => {
             <Link href={'/productos-populares'} className='hover:text-orange-500'>Productos</Link>
             <Link href={'/crear-producto'} className='hover:text-orange-500'>Crear producto</Link>
             <Link href={'/sobre-nosotros'} className='hover:text-orange-500'>Sobre nosotros</Link>
-
-            
         </nav>
     )
 }
