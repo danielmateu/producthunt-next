@@ -19,10 +19,10 @@ export const useValidacion = (stateInicial, validar, fn) => {
 
             setSubmitForm(true)
         }
-    }, [])
+    }, [errores])
 
     //Funcion que se ejecuta conforme el usuario escribe algo
-    const handleChange = () => {
+    const handleChange = (e) => {
         setvalores({
             ...valores,
             [e.target.name]: e.target.value
