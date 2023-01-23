@@ -1,11 +1,10 @@
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { ThemeButton } from './ThemeButton'
 
 
 export const MenuAdmin = ({ usuario, theme }) => {
 
-    
 
     return (
         <div className="flex gap-4 items-center">
@@ -26,9 +25,9 @@ export const MenuAdmin = ({ usuario, theme }) => {
             }
             {/* <button type="button" className=''>Sign in</button> */}
             
-            {/* <ThemeButton
+            <ThemeButton
                 theme={theme}
-            /> */}
+            />
 
         </div>
     )

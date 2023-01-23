@@ -22,7 +22,7 @@ export const ThemeButton = () => {
 
     const handleThemeSwitched = () => {
         // console.log('Turn Dark')
-        setTheme(theme === 'dark' ? 'light' : 'dark');
+        setTheme(theme === 'light' ? 'dark' : 'light');
         
     }
 

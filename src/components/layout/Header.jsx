@@ -6,7 +6,7 @@ import { MenuAdmin } from './MenuAdmin'
 import { Nav } from './Nav'
 
 
-export const Header = () => {
+export const Header = ({theme}) => {
 
     const [usuario, setUsuario] = useState(false)
     
@@ -16,7 +16,7 @@ export const Header = () => {
             <div className='flex flex-col sm:flex-row items-center gap-6 justify-between'>
                 <Logo />
                 <Nav />
-                <MenuAdmin usuario={usuario}  />
+                <MenuAdmin usuario={usuario} theme={theme} />
             </div>
         </header>
     )
