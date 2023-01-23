@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 
-export const ChangeMode = () => {
+export const ThemeButton = () => {
 
     const [theme, setTheme] = useState(null)
 
     useEffect(() => {
-        if (window.matchMedia('(prefers-color-scheme: dark').matches) {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark').matches) {
             setTheme('dark')
         } else {
             setTheme('light')
@@ -22,7 +22,8 @@ export const ChangeMode = () => {
 
     const handleThemeSwitched = () => {
         // console.log('Turn Dark')
-        setTheme(theme === 'dark' ? 'light' : 'dark')
+        setTheme(theme === 'dark' ? 'light' : 'dark');
+        
     }
 
     return (

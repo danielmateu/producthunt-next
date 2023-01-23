@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { Header } from './Header'
 
 
-export const Layout = ({ children }) => {
+export const Layout = ({ children, theme }) => {
 
 
     return (
@@ -13,7 +13,9 @@ export const Layout = ({ children }) => {
                 <title>Product Hunt Firebase + Next</title>
             </Head>
 
-            <Header />
+            <Header
+                    theme={theme}
+            />
             <main className="dark bg-white dark:bg-black">
                 {children}
             </main>

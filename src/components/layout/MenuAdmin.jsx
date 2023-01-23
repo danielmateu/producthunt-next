@@ -1,15 +1,16 @@
 import Link from 'next/link'
-import React, { useEffect, useState } from 'react'
-import { ChangeMode } from '../ui/ChangeMode'
+import React from 'react'
+import { ThemeButton } from './ThemeButton'
 
-export const MenuAdmin = ({ usuario }) => {
+
+export const MenuAdmin = ({ usuario, theme }) => {
 
     
 
     return (
         <div className="flex gap-4 items-center">
             
-            <ChangeMode/>
+            
 
             {usuario ? (
                 <>
@@ -24,7 +25,10 @@ export const MenuAdmin = ({ usuario }) => {
                 </>)
             }
             {/* <button type="button" className=''>Sign in</button> */}
-
+            
+            {/* <ThemeButton
+                theme={theme}
+            /> */}
 
         </div>
     )

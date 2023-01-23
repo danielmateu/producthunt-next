@@ -4,8 +4,8 @@ export default function Document() {
   return (
     <Html lang="es">
       <Head>
-        <html lang="es" />
-        <html className="dark"/>
+        <html lang="es" className="dark" />
+        
       </Head>
       <body>
         <Main />
